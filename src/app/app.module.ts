@@ -6,10 +6,7 @@ import { HumanResourceComponent } from './app.component';
 
 import { HeaderViewModule } from 'micro-header-nav/app/app.module';
 import { SideNavViewModule } from 'micro-side-nav/app/app.module';
-
-import { EmployeeIndexModule } from 'micro-employee-index/app/app.module';
-import { EmployeeDetailViewModule } from 'micro-employee-view/app/app.module';
-
+import { HRModule } from 'micro-hr/app/app.module';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
@@ -23,8 +20,7 @@ import { RouterModule } from '@angular/router';
     AppRoutingModule,
     HeaderViewModule,
     SideNavViewModule,
-    EmployeeIndexModule,
-    EmployeeDetailViewModule
+    HRModule
   ],
   exports: [
     RouterModule
