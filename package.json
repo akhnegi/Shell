@@ -1,5 +1,5 @@
 {
-  "name": "human-resource",
+  "name": "shell",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -23,10 +23,9 @@
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
-    "micro-employee-index": "^1.0.2",
-    "micro-employee-view": "^1.0.5",
+    "micro-hr": "^1.0.5",
     "micro-header-nav": "^1.0.3",
-    "micro-side-nav": "^1.0.3",
+    "micro-side-nav": "^1.0.4",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
