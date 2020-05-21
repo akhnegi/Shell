@@ -1,0 +1,21 @@
+<!-- <app-header></app-header> -->
+<!-- Sidebar  -->
+<!-- <app-side-nav></app-side-nav>
+<router-outlet></router-outlet>
+<employee-index></employee-index>
+<app-footer></app-footer> -->
+
+<app-header></app-header>
+<div class="row">
+    <div class="col-3">
+        <app-side-nav></app-side-nav>
+    </div>
+    <div class="col-9">
+        <div class="container">
+            <div class="col-12" style="padding-top:3rem!important">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
